@@ -94,6 +94,7 @@ h2{
 }
 
 
+
 .Aurora{
 
 width: 500px;
@@ -114,7 +115,7 @@ border-radius: 50%;
 
 }
 
-.animação{
+.animacao{
     animation: girar 2s infinite ease-in-out,brilhopulse 2s infinite;;
 }
 
