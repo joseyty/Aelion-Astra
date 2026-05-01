@@ -8,11 +8,16 @@ header{
     radial-gradient(circle at 50% 40%, #0B0B0F 0%, #050507 100%),
     radial-gradient(circle at 80% 20%, rgba(26, 28, 34, 0.15), transparent 60%),
     radial-gradient(circle at 20% 80%, rgba(26, 28, 34, 0.10), transparent 70%);
-    color: #ddb06c;
+    color: #B8B1A3;
     padding: 20px  40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 13px;
 
 }
 
@@ -21,6 +26,7 @@ body {
     radial-gradient(circle at 50% 40%, #0B0B0F 0%, #050507 100%),
     radial-gradient(circle at 80% 20%, rgba(26, 28, 34, 0.15), transparent 60%),
     radial-gradient(circle at 20% 80%, rgba(26, 28, 34, 0.10), transparent 70%);
+      -webkit-font-snoothing: antialiased;
 }
 
 
@@ -73,9 +79,18 @@ a:hover{
     color: #EAE2C6;
     text-decoration: none;
     font-weight: bold;
- 
 }
 
+.cosmos{
+        color: rgba(234, 226, 198, 0.3);
+     margin: auto;
+    text-align: center;
+     font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  letter-spacing: 3px;
+  width: fit-content;
+  padding: 5px 10px;
+}
 
 p{ 
       color: #EAE2C6;
@@ -92,19 +107,35 @@ p{
     margin: auto;
 }
 
+
 h1{ 
     text-align: center;
     color: #EAE2C6;
    filter: drop-shadow(0 0 10px #ddb06c);
+    font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+
 }
 
 h2{ 
+
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  letter-spacing: 8px;
+  font-size: 22px;
+     margin: auto;
     text-align: center;
     color: #EAE2C6;
-     font-size: 80px;
+    font-size: 80px;
    filter: drop-shadow(0 0 10px #ddb06c);
 }
 
+.logo{
+    width: 50px;
+    height: 50px;
+    filter: drop-shadow(0 0 5px #ddb06c);
+}
 
 
 .Aurora{
@@ -151,3 +182,56 @@ border-radius: 50%;
 @keyframes girar{
 
 }
+
+@media (max-width: 768px){
+  header{ 
+    padding: 15px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .logo{
+    width: 35px;
+    height: 35px;
+     margin-bottom: 5px;
+  }
+
+  ul{ 
+    gap: 15px;
+    width: 100%;
+    justify-content: center;
+    margin: 5px 0;
+  }
+
+  li{
+    margin-left: 0;
+  }
+  a{
+    font-size: 11px;
+  }
+
+  nav{
+    display: none;
+  }
+  .Aurora{
+    width: 220px;
+    height: 220px;
+  }
+  h2{
+    font-size: 36px;
+    letter-spacing: 4px;
+  }
+
+  p{
+    font-size: 12px;
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+  .cosmos{
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+}
+
+
