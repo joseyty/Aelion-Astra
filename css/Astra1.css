@@ -1,6 +1,6 @@
 *{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+   font-family: Arial, Helvetica, sans-serif;
+      }
 
 
 header{
@@ -64,18 +64,24 @@ ul{
 }
 
 a{
-      color: #ddb06c;
+      color: #B8B1A3;
       text-decoration: none;
 }
 
 
 a:hover{
-    color: #ddb06c;
+    color: #EAE2C6;
     text-decoration: none;
     font-weight: bold;
  
 }
 
+
+p{ 
+      color: #EAE2C6;
+    text-align: center;
+ margin-top: 100px;
+}
 
 .Aurora{ 
   
@@ -86,11 +92,17 @@ a:hover{
     margin: auto;
 }
 
+h1{ 
+    text-align: center;
+    color: #EAE2C6;
+   filter: drop-shadow(0 0 10px #ddb06c);
+}
+
 h2{ 
     text-align: center;
-    color: #ddb06c;
+    color: #EAE2C6;
      font-size: 80px;
-     box-shadow: 0 0 20px #ddb06c;
+   filter: drop-shadow(0 0 10px #ddb06c);
 }
 
 
@@ -119,7 +131,9 @@ border-radius: 50%;
     animation: girar 2s infinite ease-in-out,brilhopulse 2s infinite;;
 }
 
-
+.pulse{
+    animation: brilhopulse 2s infinite;
+}
 
 
 @keyframes brilhopulse{
