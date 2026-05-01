@@ -55,6 +55,11 @@ body::after {
   pointer-events: none;
 }
 
+.logo-area{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
 
 
 
@@ -113,10 +118,10 @@ p{
 h1{ 
     text-align: center;
     color: #EAE2C6;
-   filter: drop-shadow(0 0 10px #ddb06c);
     font-family: 'Cormorant Garamond', serif;
-  font-size: 20px;
-  letter-spacing: 3px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: -2.2px;
 
 }
 
