@@ -157,13 +157,22 @@ border-radius: 50%;
 
 
 }
+.linha{
+    width: 200px;
+    height: 2px;
+     background: linear-gradient( to right,  transparent, #EAE2C6, transparent);
+     animation: crescer 2s infinite;
+     transform: rotate(90deg);
+}
+
+
 
 .animacao{
-    animation: girar 2s infinite ease-in-out,brilhopulse 2s infinite;;
+    animation: rotate 2s infinite ease-in-out,brilhopulse 2s infinite;;
 }
 
 .pulse{
-    animation: brilhopulse 2s infinite;
+    animation: brilhopulse 2s  ease-in-out infinite;
 }
 
 
@@ -179,8 +188,17 @@ border-radius: 50%;
     }
 }
 
-@keyframes girar{
+@keyframes rotate{
+ 
+}
 
+@keyframes crescer{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 200px;
+    }
 }
 
 @media (max-width: 768px){
@@ -191,6 +209,13 @@ border-radius: 50%;
     text-align: center;
   }
 
+  .linha{
+        width: 200px;
+    height: 2px;
+     background: linear-gradient( to right,  transparent, #EAE2C6, transparent);
+     animation: crescer 2s infinite;
+     transform: rotate(90deg);
+  }
   .logo{
     width: 35px;
     height: 35px;
