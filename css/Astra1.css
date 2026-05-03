@@ -28,6 +28,7 @@ body {
     radial-gradient(circle at 20% 80%, rgba(26, 28, 34, 0.10), transparent 70%);
       -webkit-font-snoothing: antialiased;
       overflow-y: hidden;
+      cursor: url('../img/Hollow\ Knight\ &\ Game\ Arrow--cursor--SweezyCursors..png'), auto;
 }
 
 
